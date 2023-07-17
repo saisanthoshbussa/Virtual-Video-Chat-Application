@@ -1,6 +1,14 @@
 # Virtual-Video-Chat-Application
 
-This application offers high-definition video calls, ensuring crystal-clear visuals and smooth video streaming. Experience lifelike conversations with friends and loved ones, or conduct professional meetings with colleagues as if you were physically present.
+Welcome to the Virtual Video Chat application! This real-time web application offers high-definition video calls, ensuring crystal-clear visuals and smooth video streaming. Experience lifelike conversations with friends and loved ones, or conduct professional meetings with colleagues as if you were physically present.
+
+## Table of Contents
+
+- [Project team](#project-team)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
 
 ## Project team
 
@@ -12,22 +20,27 @@ This application offers high-definition video calls, ensuring crystal-clear visu
 
 ## Features
 
-- video conferencing - Users can organize meets where others could join using the meet ID.
-- User authentication using Gmail-id.
-- Chatbox where users can chat with others in meet.
-- Light/dark mode toggle
+- Real-time video conferencing - Users can organize meets where others could join using the meet ID.
+- User authentication using Gmail-id and session management.
+- Creation of meetings and invitation of other users via email ID.
+- Chat functionality - where users can chat with others during video calls.
+- Light/dark mode toggle feature for enhanced user experience.
 
 ## Prerequisites
 
 Install [node.js](https://nodejs.org/en/) in your machine
 
-## Socket.io
+## Technologies Used
 
-Socket.io, a popular javascript library is used in this project to facilitate realtime communication. Socket.io allows real-time bi-directional communication between the browser and server.
+- [WebRTC](https://webrtc.org/): A free, open-source project that provides real-time communication capabilities via APIs for voice, video, and data transfer.
+- [SocketIO](https://socket.io/): A JavaScript library that enables real-time bidirectional communication between clients and servers using WebSockets.
+- [PeerJS](https://peerjs.com/): A library that simplifies WebRTC peer-to-peer data, audio, and video calls by providing a simple API and handling the complexities of WebRTC.
+- [EJS](https://ejs.co/): A template engine for Node.js that allows for server-side rendering of HTML templates with JavaScript.
+- [Passport.js](http://www.passportjs.org/): A flexible authentication middleware for Node.js that supports various authentication strategies, including Google authentication.
 
-## Run Locally
+## Setup
 
-Clone the project
+1. Clone the project
 
 ```bash
     git clone https://github.com/saisanthoshbussa/Virtual-Video-Chat-Application
@@ -35,11 +48,12 @@ Clone the project
 
 or download the zip file.
 
-Go to the project directory and install dependencies
+2. Go to the project directory and install dependencies
 
 ```bash
     npm install
 ```
 
-Start the server
+3. Start the server and
 
+Open the application in your web browser at `http://localhost:5000`.
