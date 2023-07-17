@@ -43,4 +43,3 @@ Go to the project directory and install dependencies
 
 Start the server
 
-## Screenshots
